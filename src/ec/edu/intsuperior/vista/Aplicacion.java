@@ -6,6 +6,8 @@ package ec.edu.intsuperior.vista;
 
 import com.sun.jdi.PathSearchingVirtualMachine;
 import ec.edu.intsuperior.modelo.Persona;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  *
@@ -16,9 +18,13 @@ public class Aplicacion {
     public static void main(String[] args) {
         
         Persona acero= new Persona();
+        SimpleDateFormat formatoFecha=new SimpleDateFormat("29/04/2002");
+        Date fec= new Date;
         
-       Persona ob1=new Persona("1753985728", "Miguel", "Angel", "Acero", "Isama", "Quito,legarda y occidental","29/04/2002", "miguelangelaceroisama@gmail.com")
         
-                
+       Persona ob1=new Persona("1753985728", "Miguel", "Angel", "Acero", "Isama", "Quito,legarda y occidental", fec , "miguelangelaceroisama@gmail.com");
+        
+           System.out.println("fecha de nacimiento; "+ob1.getFechaNacimiento();
+           
     }
 }

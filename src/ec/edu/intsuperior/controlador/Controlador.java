@@ -9,5 +9,5 @@ package ec.edu.intsuperior.controlador;
  * @author POINT
  */
 public class Controlador {
-    
+    public void met1
 }
