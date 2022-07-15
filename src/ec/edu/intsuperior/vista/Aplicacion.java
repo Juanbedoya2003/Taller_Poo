@@ -19,12 +19,14 @@ public class Aplicacion {
         
         Persona acero= new Persona();
         SimpleDateFormat formatoFecha=new SimpleDateFormat("29/04/2002");
-        Date fec= new Date;
+        Date fec= new Date();
+        fec.setYear(0);
+        
         
         
        Persona ob1=new Persona("1753985728", "Miguel", "Angel", "Acero", "Isama", "Quito,legarda y occidental", fec , "miguelangelaceroisama@gmail.com");
         
-           System.out.println("fecha de nacimiento; "+ob1.getFechaNacimiento();
+           System.out.println(ob1.getFechaNacimiento().get+"fecha de nacimiento; ";
            
     }
 }
