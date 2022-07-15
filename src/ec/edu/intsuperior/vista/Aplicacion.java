@@ -26,7 +26,7 @@ public class Aplicacion {
         
        Persona ob1=new Persona("1753985728", "Miguel", "Angel", "Acero", "Isama", "Quito,legarda y occidental", fec , "miguelangelaceroisama@gmail.com");
         
-           System.out.println(ob1.getFechaNacimiento().get+"fecha de nacimiento; ";
+           System.out.println(ob1.getFechaNacimiento();
            
     }
 }
