@@ -4,7 +4,6 @@
  */
 package ec.edu.intsuperior.vista;
 
-import com.sun.jdi.PathSearchingVirtualMachine;
 import ec.edu.intsuperior.modelo.Persona;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -25,8 +24,5 @@ public class Aplicacion {
         
         
        Persona ob1=new Persona("1753985728", "Miguel", "Angel", "Acero", "Isama", "Quito,legarda y occidental", fec , "miguelangelaceroisama@gmail.com");
-        
-           System.out.println(ob1.getFechaNacimiento();
-           
     }
 }
